@@ -56,7 +56,7 @@ with col_anim:
     st_lottie(lottie_money, height=150, key="money_anim")
 
 st.divider()
-debar Upload
+#sidebar Upload
 st.sidebar.markdown("## 📥 Input Zone")
 uploaded_file = st.sidebar.file_uploader("Drop your Bank CSV here", type="csv")
 
