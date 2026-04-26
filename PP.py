@@ -45,6 +45,7 @@ def load_lottieurl(url):
 
 lottie_money = load_lottieurl("https://lottie.host/8047910d-2b47-49f3-85b2-38e93f9c5d03/GfX5vX8L1S.json")# Floating Money
 
+
 # 3. Header Section
 col_title, col_anim = st.columns([2, 1])
 with col_title:
@@ -55,8 +56,7 @@ with col_anim:
     st_lottie(lottie_money, height=150, key="money_anim")
 
 st.divider()
-
-# 4. Sidebar Upload
+debar Upload
 st.sidebar.markdown("## 📥 Input Zone")
 uploaded_file = st.sidebar.file_uploader("Drop your Bank CSV here", type="csv")
 
