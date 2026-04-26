@@ -43,7 +43,8 @@ def load_lottieurl(url):
         return None
     return r.json()
 
-lottie_money = load_lottieurl("https://assets1.lottiefiles.com/packages/lf20_5n8yjtia.json") # Floating Money
+lottie_money = # Change the URL inside the load_lottieurl function call
+lottie_money = load_lottieurl("https://lottie.host/8047910d-2b47-49f3-85b2-38e93f9c5d03/GfX5vX8L1S.json")# Floating Money
 
 # 3. Header Section
 col_title, col_anim = st.columns([2, 1])
